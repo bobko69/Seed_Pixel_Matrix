@@ -1,10 +1,13 @@
 # Seed Pixel Matrix
 <img src="./img/seed_pixel_matrix_v1.0.png" width="800">
-- PCB size is 25mm x 300mm (0.98" x 11.81")
-- Each PCB uses 3 loops of LED seed pixels.  For example a loop of 64 seed would be one continuous string of 32 seeds down and 32 seeds up.
-- PCBs can be joined together using the in and out pads on the sides of the board
 
-This PCB is my solution for building a seed pixel matrix on my garage door.  I still needed my garage door to function so I could pull my car in and out easily.  I also wanted to use seed pixels since they are small and save on weight and I wanted nice even spacing of the matrix.  The total size of my matrix is 32 x 84 or 2688 pixels.  I used 14 of the boards on my 16' garage door.  42 strings of 64 seed pixels.  I joined 2 boards together and uses 7 ports on my controller (384 pixels per port).
+- PCB size is 25mm x 300mm (0.98" x 11.81")
+- Designed to use seed pixels with 5cm spacing
+- Each PCB uses 3 loops of LED seed pixels.  For example a loop of 64 seed pixels would be one continuous string of 32 seed pixels down and 32 seed pixels up.
+- PCBs can be joined together using the in and out pads on the sides of the board
+- The gerber files for the PCB and the STL file for the spacer are included in this project
+
+This PCB is my solution for building a seed pixel matrix on my garage door.  I needed my garage door to still function so I could pull my car in and out easily.  I also wanted to use seed pixels since they are small and save on weight and I wanted nice even spacing of the matrix.  The total size of my matrix is 32 x 84 or 2688 pixels.  I used 14 of the boards on my 16' garage door.  42 loops of 64 seed pixels.  I joined 2 boards together and used 7 ports on my controller (384 pixels per port).
 
 <img src="./img/IMG_4849.png" width="800">
 
